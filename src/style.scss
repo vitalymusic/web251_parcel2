@@ -1,0 +1,15 @@
+@import "bootstrap/scss/bootstrap";
+
+html {
+  color-scheme: light dark;
+  font-family: system-ui;
+  display: flex;
+  align-items:first baseline;
+  justify-content: center;
+  height: 100%;
+}
+
+
+body{
+  background-image: linear-gradient(rgb(189, 189, 246),rgb(80, 80, 244))
+}

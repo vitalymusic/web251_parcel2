@@ -2,13 +2,18 @@
   "name": "parcel-vanilla-starter",
   "private": true,
   "version": "0.0.0",
-  "source": "src/index.html",
+  "source": "src/index.pug",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@parcel/transformer-pug": "^2.14.2",
+    "@parcel/transformer-sass": "^2.14.2",
     "parcel": "^2.14.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
   }
 }
